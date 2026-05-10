@@ -1,0 +1,70 @@
+<!-- frontend/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nepal EGM2008 Geoid Height Query</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Nepal EGM2008 Geoid Height Query</h1>
+
+        <p class="description">
+            Enter geographic coordinates (latitude and longitude)
+            to retrieve interpolated geoid height from the EGM2008.
+        </p>
+
+        <div class="form-box">
+
+            <div class="input-group">
+                <label for="latitude">Latitude</label>
+
+                <input
+                    type="number"
+                    id="latitude"
+                    placeholder="e.g. 27.7172"
+                    step="any"
+                />
+            </div>
+
+            <div class="input-group">
+                <label for="longitude">Longitude</label>
+
+                <input
+                    type="number"
+                    id="longitude"
+                    placeholder="e.g. 85.3240"
+                    step="any"
+                />
+            </div>
+
+            <button id="queryButton">
+                Get Geoid Height
+            </button>
+
+        </div>
+
+        <div class="result-box">
+
+            <h2>Result</h2>
+
+            <p id="resultText">
+                Elevation result will appear here.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
