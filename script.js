@@ -33,7 +33,7 @@ queryButton.addEventListener("click", async () => {
 
         // Backend API URL
         const apiURL =
-            `https://nepal-geoid-heigh-api.onrender.com/geoid_height?lat=${latitude}&lon=${longitude}`;
+            `https://nepal-geoid-height-api.onrender.com/geoid_height?lat=${latitude}&lon=${longitude}`;
 
 
         // Send request
