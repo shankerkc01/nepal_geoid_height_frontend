@@ -65,7 +65,7 @@ queryButton.addEventListener("click", async () => {
         console.error(error);
 
         resultText.innerHTML =
-            "Failed to retrieve geoid_height.";
+            "Failed to retrieve geoid height.";
     }
 
 });
