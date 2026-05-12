@@ -126,3 +126,25 @@ button:hover {
 
     line-height: 1.5;
 }
+
+.visualization-link {
+    margin-top: 25px;
+
+    text-align: center;
+}
+
+.visualization-link a {
+    color: #1d3557;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: color 0.3s ease;
+}
+
+.visualization-link a:hover {
+    color: #457b9d;
+
+    text-decoration: underline;
+}
